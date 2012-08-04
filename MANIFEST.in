@@ -1,0 +1,3 @@
+include README.rst
+include LICENSE
+include code_time_tracker.py

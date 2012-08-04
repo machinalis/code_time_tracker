@@ -14,15 +14,12 @@ setup(
     author = u'Javier Mansilla',
     author_email = 'jmansilla@machinalis.com',
     url='https://github.com/machinalis/code_time_tracker',
+    py_modules=['code_time_tracker'],
     classifiers = [
-        'Development Status :: 4 - Beta',
-        'Environment :: ',
         'Intended Audience :: Developers',
-        'Framework :: Django',
         'License :: OSI Approved :: BSD License',
         'Natural Language :: English',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        'Topic :: Internet ::',
       ]
 )

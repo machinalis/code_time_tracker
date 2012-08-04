@@ -1,6 +1,5 @@
 from functools import wraps
 from datetime import datetime, timedelta
-from django.utils.decorators import available_attrs
 
 
 class CTTracker(object):
@@ -36,4 +35,4 @@ def code_time_tracked(function):
         result = function(*args, **kwargs)
         tracker.finish_call()
         return result
-    return wraps(function, assigned=available_attrs(function))(inner_func)
+    return inner_func
